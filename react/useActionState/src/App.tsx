@@ -1,6 +1,5 @@
 import {FormEvent, useRef, useState} from 'react'
 
-
 interface IData {
     error?: string;
     message?: string;

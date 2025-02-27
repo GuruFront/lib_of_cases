@@ -19,7 +19,7 @@ function App_with_useActionState() {
 export default App_with_useActionState
 
 
-async function saveUser(previousState: unknown, formData: FormData) {
+async function saveUser(_previousState: unknown, formData: FormData) {
     const firstName = formData.get('firstName');
     await wait(1000);
     if (firstName === "") {
