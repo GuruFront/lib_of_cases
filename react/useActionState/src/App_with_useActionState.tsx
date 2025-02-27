@@ -6,7 +6,7 @@ function App_with_useActionState() {
     return (
         <form action={action} style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
             <label htmlFor="firstName">First Name</label>
-            <input defaultValue={data?.fieldData?.firstName ?? ""} type="text" name="firstName" id="firstName"/>
+            <input defaultValue={data?.fieldData?.firstName ?? ""} name="firstName" id="firstName"/>
             <button disabled={isPending} style={{marginTop: '.5rem'}}>
                 Submit
             </button>
